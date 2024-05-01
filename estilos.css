@@ -13,7 +13,8 @@ body{
 }
 
 nav {
-  background-color: #5F3DC4;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(95,61,196,1) 54%, rgba(0,212,255,1) 100%);
   color: #fff;
   font-size: 30px;
   font-weight: 800;
@@ -53,6 +54,7 @@ nav title { /*Disposición del título p/desktop*/
 
 .foto{
   border-radius: 20%;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.50);
 }
 
 footer{
@@ -82,12 +84,12 @@ footer img {
     text-align: center;
     font-size: 40px;
    }
-      
+   
   .contenedor{
     display: flex;
     flex-direction: column;
     max-width: 100vh;
-    margin-bottom: 120px;
+    margin-bottom: 80px;
     align-content: center;
     text-align: justify;
     }
