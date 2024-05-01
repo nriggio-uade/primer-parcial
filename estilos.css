@@ -29,7 +29,7 @@ nav title { /*Disposición del título p/desktop*/
 .contenedor{
   display: flex;
   max-width: 100%;
-  min-height: 100vh;
+  min-height: 80vh;
   margin: auto;
   justify-content: center;
   align-items: center;
@@ -40,8 +40,10 @@ nav title { /*Disposición del título p/desktop*/
   margin-left: 40px;
   margin-right: 40px;
   min-height: 50vh;
+  max-width: 50%;
   font-size: 16px;
   justify-self: center;
+  vertical-align: center;
   line-height: 1.5;
 }
 
@@ -57,7 +59,7 @@ footer{
   height: 60px;
   justify-content: center;
   align-items: center;
-  position: relative;
+  position: absolute;
   bottom: 0;
   }
 
@@ -89,6 +91,7 @@ footer img {
    .textodescrip{
      font-size: 18px;
      text-align: justify;
+     max-width: 80%;
      margin: 5px;
      line-height: 1.6;
     }
