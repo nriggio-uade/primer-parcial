@@ -1,0 +1,108 @@
+html{
+  height: 100vh;
+}
+
+body{
+  font-family: sans-serif;
+  margin: 0;
+  height: 100vh;
+  position: relative;
+}
+
+nav {
+  background-color: #5F3DC4;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 800;
+  padding: 20px
+}
+
+nav title { /*Disposición del título p/desktop*/
+  display: flex; 
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+}
+
+.contenedor{
+  display: flex;
+  max-width: 100%;
+  min-height: 100%;
+  margin: auto;
+  padding: 63px;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  }
+
+.textodescrip{
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 16px;
+  justify-self: center;
+  line-height: 1.5;
+}
+
+.foto{
+  border-radius: 20%;
+}
+
+footer{
+  display: flex;
+  background-color: #2d1476;
+  width: 100%;
+  color: #fff;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  }
+
+footer img {
+  height: 30px;
+  width: auto;
+ }
+
+ /* <--------------------------------------RESPONSIVE-------------------------------------->*/
+ @media (max-width: 768px) {/*cuando el dispositivo es máximo es de 768px*/
+ 
+
+  title{
+   display: flex;
+   max-width: 100%;
+   color: #fff;
+   text-align: center;
+   font-size: 40px;
+   }
+   
+   .contenedor{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 20px;
+    align-content: center;
+    text-align: justify;
+    }
+      
+   .textodescrip{
+     font-size: 15px;
+     text-align: justify;
+     margin: 5px;
+     line-height: 1.6;
+    }
+   
+    footer{
+      display: flex;
+      background-color: #2d1476;
+      color: #fff;
+      height: 60px;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      bottom: 0;
+      }
+   
+}
