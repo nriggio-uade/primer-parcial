@@ -5,7 +5,7 @@ html{
 body{
   font-family: sans-serif;
   margin: 0;
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
 }
 
@@ -29,17 +29,17 @@ nav title { /*Disposición del título p/desktop*/
 .contenedor{
   display: flex;
   max-width: 100%;
-  min-height: 100%;
+  min-height: 100vh;
   margin: auto;
-  padding: 63px;
   justify-content: center;
   align-items: center;
   text-align: justify;
   }
 
 .textodescrip{
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  min-height: 50vh;
   font-size: 16px;
   justify-self: center;
   line-height: 1.5;
@@ -57,7 +57,7 @@ footer{
   height: 60px;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  position: relative;
   bottom: 0;
   }
 
@@ -69,7 +69,6 @@ footer img {
  /* <--------------------------------------RESPONSIVE-------------------------------------->*/
  @media (max-width: 768px) {/*cuando el dispositivo es máximo es de 768px*/
  
-
   title{
    display: flex;
    max-width: 100%;
@@ -81,28 +80,18 @@ footer img {
    .contenedor{
     display: flex;
     flex-direction: column;
-    max-width: 100%;
+    max-width: 100vh;
     padding: 20px;
     align-content: center;
     text-align: justify;
     }
       
    .textodescrip{
-     font-size: 15px;
+     font-size: 18px;
      text-align: justify;
      margin: 5px;
      line-height: 1.6;
     }
    
-    footer{
-      display: flex;
-      background-color: #2d1476;
-      color: #fff;
-      height: 60px;
-      justify-content: center;
-      align-items: center;
-      position: absolute;
-      bottom: 0;
-      }
-   
+
 }
