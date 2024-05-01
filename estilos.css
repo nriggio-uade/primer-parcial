@@ -82,17 +82,12 @@ footer img {
     text-align: center;
     font-size: 40px;
    }
-   
-   section{
-    max-width: 100vh;
-    padding-top: 30px;
-    padding-bottom: 65px;
-  }
+      
   .contenedor{
     display: flex;
     flex-direction: column;
     max-width: 100vh;
-    padding-bottom: 80px;
+    margin-bottom: 80px;
     align-content: center;
     text-align: justify;
     }
