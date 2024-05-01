@@ -72,14 +72,19 @@ footer img {
  @media (max-width: 768px) {/*cuando el dispositivo es máximo es de 768px*/
  
   title{
-   display: flex;
-   max-width: 100%;
-   color: #fff;
-   text-align: center;
-   font-size: 40px;
+    display: flex;
+    max-width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
    }
    
-   .contenedor{
+   section{
+    max-width: 100vh;
+    padding-top: 30px;
+    padding-bottom: 65px;
+  }
+  .contenedor{
     display: flex;
     flex-direction: column;
     max-width: 100vh;
@@ -88,12 +93,12 @@ footer img {
     text-align: justify;
     }
       
-   .textodescrip{
-     font-size: 18px;
-     text-align: justify;
-     max-width: 80%;
-     margin: 5px;
-     line-height: 1.6;
+  .textodescrip{
+    font-size: 18px;
+    text-align: justify;
+    max-width: 100%;
+    margin: 5px;
+    line-height: 1.6;
     }
    
 
